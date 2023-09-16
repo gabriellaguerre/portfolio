@@ -211,6 +211,9 @@ input, select, textarea {
 	}
 
 /* Container */
+	/* .container {
+		background-color: red;
+	} */
 
 	.container {
 		margin: 0 auto;
@@ -258,10 +261,45 @@ input, select, textarea {
 
 		}
 
+	.r1c1, .r1c2, .r2c1, .r2c2 {
+		text-align: center;
+		width: auto;
+		margin: 50px;
+	}
+
+   	#G2G, #cal {
+		height: 350px;
+		width: 450px;
+		position: relative;
+		left: 240px;
+		border-radius: 20px;
+	}
+	#ivy, #ram {
+		height: 320px;
+		width: 600px;
+		position: relative;
+		left: 200px;
+		border-radius: 20px;
+	}
+
+	.G2G, .ivy, .ram, .cal {
+		text-align: center;
+	}
+	 .containerPortfolio {
+		background-color: rgb(0, 0, 53);
+	 }
+
+	 #portfolio1 {
+		color: #E27689;
+		text-align: center;
+		font-size: 50px;
+		padding: 30px;
+	 }
+
 /* Row */
 
-	.row {
-		display: flex;
+	/* .row {
+		display: grid;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -499,11 +537,11 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
-				}
+				} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) { */
 
-			.row {
+			/* .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -742,20 +780,22 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
-						}
+						} */
 
-		}
+		/* } */
 
-		@media screen and (min-width: 961px) and (max-width: 1620px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1620px) { */
 
-			.row {
-				display: flex;
-				flex-wrap: wrap;
+			/* .row {
+				/* display: grid;
+				grid-template-columns: 1fr, 1fr;
+				grid-template-rows: 1fr, 1fr; */
+				/* flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
-			}
+				align-items: stretch; */
+			 */
 
-				.row > * {
+				/* .row > * {
 					box-sizing: border-box;
 				}
 
@@ -987,13 +1027,14 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
-						}
+						} */
 
-		}
+					/* } */
 
-		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
-			.row {
+		/* @media screen and (min-width: 961px) and (max-width: 1320px) { */
+
+			/* .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -1232,13 +1273,13 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 40px;
-						}
+						} */
 
-		}
+		/* }
 
-		@media screen and (max-width: 960px) {
+		@media screen and (max-width: 960px) { */
 
-			.row {
+			/* .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -1477,13 +1518,13 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 40px;
-						}
+						} */
 
-		}
+		/* }
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) { */
 
-			.row {
+			/* .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -1722,9 +1763,9 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 40px;
-						}
+						} */
 
-		}
+		/* } */
 
 /* Sections/Article */
 
@@ -1768,10 +1809,10 @@ input, select, textarea {
 				height:70px;
 				border-radius: 40px;
 			}
-
+/*------------------PORTFOLIO image ----------------------*/
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 100px;
 		}
 
 		.image.featured {
@@ -1993,6 +2034,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			width: 100px;
 		}
 
 			.item header h3 {
@@ -2253,8 +2295,9 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: rgb(0, 0, 53);
+				/* background-color: #81918E; */
+				/* background-image: url("../../images/banner.jpg"); */
 			}
 
 			#main > section.two {
@@ -2306,7 +2349,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				padding: 1px 0;
 			}
 
 			#main section.cover {
