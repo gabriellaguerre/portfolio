@@ -274,7 +274,7 @@ input, select, textarea {
 		left: 240px;
 		border-radius: 20px;
 	}
-	#ivy, #ram {
+	#ivy, #ram, #G2G {
 		height: 320px;
 		width: 600px;
 		position: relative;
@@ -287,6 +287,14 @@ input, select, textarea {
 	}
 	 .containerPortfolio {
 		background-color: rgb(0, 0, 53);
+		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.6);
+		/* height: 2000px; */
+	 }
+
+	 .containerContact {
+		background-color: rgb(0, 0, 53);
+		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.6);
+
 	 }
 
 	 #portfolio1 {
@@ -296,6 +304,32 @@ input, select, textarea {
 		padding: 30px;
 	 }
 
+	 #submit {
+		margin: 20px;
+	 }
+
+	 .row1 {
+		width: 600px;
+		position: relative;
+		left: 200px;
+	 }
+
+	 .containerAbout p {
+		color: rgba(255, 255, 255, 0.75);
+		text-align: left;
+		margin-left: 10px;
+	 }
+
+	 .aboutMe {
+		width: auto;
+	 }
+	  /* #about {
+		margin: 1px;
+	 } */
+
+	 /* #form {
+		text-align: center;
+	 } */
 /* Row */
 
 	/* .row {
@@ -2225,7 +2259,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: rgb(0, 0, 53);
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2259,7 +2293,7 @@ input, select, textarea {
 		#main > section {
 			margin: 0;
 			overflow: hidden;
-			padding: 4em 0;
+			/* padding: 4em 0; */
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
 			background-image: url("images/overlay.png");
@@ -2289,7 +2323,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				/* padding: 10em 0; */
 				background-size: cover;
 				background-position: center center;
 			}
@@ -2301,15 +2335,15 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: rgb(0, 0, 53);
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: rgb(0, 0, 53);
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: rgb(0, 0, 53);
 			}
 
 /* Wide */
@@ -2654,7 +2688,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 2em 0;
 			}
 
@@ -2664,7 +2698,7 @@ input, select, textarea {
 
 				#main section.cover header {
 					padding: 0 1em;
-				}
+				} */
 
 		/* Footer */
 
