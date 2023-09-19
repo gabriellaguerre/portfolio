@@ -77,10 +77,10 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 	}
-
+/*
 	*, *:before, *:after {
 		box-sizing: inherit;
-	}
+	} */
 
 	body {
 		background: #fff;
@@ -2776,6 +2776,35 @@ input, select, textarea {
 			.container {
 				padding: 0 15px 0 15px;
 			}
+
+			.containerPorfolio {
+				padding: 0 15px 0 15px;
+			}
+
+			.r1c1, .r1c2, .r2c1, .r2c2 {
+				/* text-align: center; */
+				width: 50%;
+				/* margin: 20px; */
+			}
+			/* .image.fit {
+				display: block;
+				width: 100px;
+			} */
+
+			.image.fit {
+				margin: 0px;
+			}
+
+			   #G2G, #ivy, #ram {
+				width: 20em;
+				height: 10em;
+				margin: 10px;
+				position: static;
+				/* left: 100px; */
+				margin-left: 100px;
+
+			}
+		
 
 		/* List */
 
