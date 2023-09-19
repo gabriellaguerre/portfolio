@@ -294,6 +294,9 @@ input, select, textarea {
 	 .containerContact {
 		background-color: rgb(0, 0, 53);
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.6);
+		/* position: relative;
+		left: 200px; */
+
 
 	 }
 
@@ -304,14 +307,26 @@ input, select, textarea {
 		padding: 30px;
 	 }
 
+	 #contact1 {
+		color: #E27689;
+		text-align: center;
+		font-size: 50px;
+		padding: 30px;
+		position: relative;
+		left: 140px;
+	 }
+
 	 #submit {
-		margin: 20px;
+		margin-top: 20px;
+		height: 100px;
+
+
 	 }
 
 	 .row1 {
 		width: 600px;
 		position: relative;
-		left: 200px;
+		left: 600px;
 	 }
 
 	 .containerAbout p {
@@ -323,13 +338,95 @@ input, select, textarea {
 	 .aboutMe {
 		width: auto;
 	 }
+
+	 /* .express {
+
+	 } */
+    .express {
+		padding: 10px;
+   }
+
+	 #express {
+		width: 200px;
+		/* height: 5px; */
+		margin: 30px;
+	 }
+
+	 #css {
+		width: 150px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #html {
+		width: 150px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #sqlalch {
+		width: 250px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #js {
+		width: 110px;
+		height: 6pc;
+		margin: 30px;
+	 }
+
+	 #node {
+		width: 150px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #python {
+		width: 120px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #flask {
+		width: 100px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #react {
+		width: 250px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #redux1 {
+		width: 100px;
+		height: 8pc;
+		margin: 30px;
+	 }
+
+	 #sequelize {
+		width: 300px;
+		height: 6pc;
+		margin: 30px;
+	 }
 	  /* #about {
 		margin: 1px;
 	 } */
 
-	 /* #form {
+	 #form {
 		text-align: center;
-	 } */
+		position: relative;
+		right: 50px;
+	 }
+
+	 .skills {
+		color: rgb(155, 154, 154);
+		font-weight: bold;
+		font-size: 30px;
+		margin: 20px;
+	 }
 /* Row */
 
 	/* .row {
