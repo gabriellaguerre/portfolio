@@ -2499,6 +2499,11 @@ input, select, textarea {
 				font-size: 16pt;
 			}
 
+			.row1 {
+				width: 20em;
+				position: relative;
+				left: 45%;
+			 }
 
 			.container {
 				padding: 0 2em 0 2em;
@@ -2582,6 +2587,12 @@ input, select, textarea {
 			.container {
 				padding: 0 2em 0 2em;
 			}
+
+			.row1 {
+				width: 20em;
+				position: relative;
+				left: 30%;
+			 }
 
 		/* Item */
 
@@ -2791,9 +2802,11 @@ input, select, textarea {
 				width: 100px;
 			} */
 
-			.image.fit {
-				margin: 0px;
-			}
+			.row1 {
+				width: 20em;
+				position: relative;
+				left: 30%;
+			 }
 
 			   #G2G, #ivy, #ram {
 				width: 20em;
@@ -2804,7 +2817,10 @@ input, select, textarea {
 				margin-left: 100px;
 
 			}
-		
+			#contact1 {
+				position: static;
+				right: 200px;
+			}
 
 		/* List */
 
