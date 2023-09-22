@@ -411,6 +411,12 @@ input, select, textarea {
 		height: 6pc;
 		margin: 30px;
 	 }
+
+	 #docker {
+		width: 100px;
+		height: 8pc;
+		margin: 30px;
+	 }
 	  /* #about {
 		margin: 1px;
 	 } */
